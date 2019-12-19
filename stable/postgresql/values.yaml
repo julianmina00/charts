@@ -482,3 +482,10 @@ metrics:
     timeoutSeconds: 5
     failureThreshold: 6
     successThreshold: 1
+
+## Configurarion of the databases to be created
+databases:
+  webhookSvc:
+    name: webhook
+  securitySvc:
+    name: security_service_db
