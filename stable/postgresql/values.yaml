@@ -356,8 +356,11 @@ slave:
 ## ref: http://kubernetes.io/docs/user-guide/compute-resources/
 ##
 resources:
+  limits:
+    memory: 1Gi
+    cpu: 250m  
   requests:
-    memory: 4Gi
+    memory: 1Gi
     cpu: 250m
 
 networkPolicy:
